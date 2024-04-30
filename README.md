@@ -1,4 +1,4 @@
-# java-boilerplate
+![workflow](https://github.com/BilligsterUser/java-boilerplate/actions/workflows/maven.yml/badge.svg) ![tests](https://raw.githubusercontent.com/BilligsterUser/java-boilerplate/main/.github/badges/jacoco.svg)
 
 Java project starter. The boilerplate is built using Maven.
 
