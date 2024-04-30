@@ -34,7 +34,7 @@ public class Generics {
 
         Integer[] inputIntArr = new Integer[]{1, 2};
         Integer[] test1 = Generics.mergeArrs(inputIntArr, new Integer[]{3, 4}, new Integer[]{5, 6});
-        Generics.l.info("int arr: {}", test0.toString());
+        Generics.l.info("int arr: {}", test1.toString());
         for (Integer i : test1) {
             Generics.l.info("int: {}", i);
         }
