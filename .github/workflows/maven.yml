@@ -7,8 +7,6 @@
 # documentation.
 
 name: Java CI with Maven
-permissions:
-  contents: write
 on:
   push:
     branches: [ "main" ]
@@ -17,9 +15,9 @@ on:
 
 jobs:
   build:
-
     runs-on: ubuntu-latest
-
+    permissions:
+      contents: write
     steps:
       - name: Checkout Code
         uses: actions/checkout@v4
