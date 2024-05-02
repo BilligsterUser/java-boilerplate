@@ -22,21 +22,4 @@ public class Generics {
         }
         return result;
     }
-
-    public static void main(String[] args) {
-        String[] inputStrArr = new String[]{"1", "2"};
-        String[] test0 = Generics.mergeArrs(inputStrArr, new String[]{"3", "4"}, new String[]{"5", "6"});
-        Generics.l.info("string arr: {}", test0.toString());
-        for (String s : test0) {
-            Generics.l.info(s);
-        }
-
-
-        Integer[] inputIntArr = new Integer[]{1, 2};
-        Integer[] test1 = Generics.mergeArrs(inputIntArr, new Integer[]{3, 4}, new Integer[]{5, 6});
-        Generics.l.info("int arr: {}", test1.toString());
-        for (Integer i : test1) {
-            Generics.l.info("int: {}", i);
-        }
-    }
 }
